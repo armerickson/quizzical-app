@@ -65,7 +65,7 @@ export default function QuestionsContainer(props) {
           </div>
 
           {!endGame &&
-          <button className="questions--reset-btn control-btn reset-btn" onClick={setPage(-1)}>
+          <button className="questions--reset-btn control-btn reset-btn" onClick={resetGame}>
             <i className="fa-solid fa-rotate-left"></i>
             Reset
           </button>}
@@ -85,5 +85,3 @@ export default function QuestionsContainer(props) {
       </div>
     )
 }
-
-//resetGame

@@ -9,9 +9,9 @@ export default function Question(props) {
   const [answersHtml, setAnswersHtml] = React.useState("")
 
   //must set question and correct answers so that react development double fetch doesn't mismatch question and answers
-  const [q, setQ] = React.useState(question)
-  const [correctAnswer, setCorrectAnswer] = React.useState(correct_answer)
-  const [answers, setAnswers] = React.useState(shufffleAnswers)
+  const [q] = React.useState(question)
+  const [correctAnswer] = React.useState(correct_answer)
+  const [answers] = React.useState(shufffleAnswers)
 
   const clickedStyle = {
     color: "#1f1147",
