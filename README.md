@@ -3,3 +3,9 @@ Quizzical is a trivia game made with React. Trivia are questions pulled from the
 This is the final solo project of the [Intro to React course](https://scrimba.com/learn/learnreact) on Scrimba.com. Additional functionality was added such as the ability to choose difficulty and category. Almost all code and CSS was written by myself. A big thanks to Bob Ziroll on Scrimba for the idea, title, and some design direction!
 
 [Play Quizzical here!](https://armerickson.github.io/quizzical-app/)
+
+Libraries Used: 
+- [Font Awesome](https://fontawesome.com/icons): Icon library
+- [Nanoid](https://www.npmjs.com/package/nanoid): Unique string ID generator for JavaScript
+- [react-confetti](https://www.npmjs.com/package/react-confetti): Confetti React component
+
